@@ -1,0 +1,39 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="1" unitType="meters" minOgreVersion="1.8" ogreMaxVersion="2.4.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="50000" />
+    </environment>
+    <nodes>
+        <node name="Plane001">
+            <position x="0" y="0" z="0" />
+            <scale x="4.12467" y="3.14865" z="4.12467" />
+            <rotation qx="-1.50996e-007" qy="0" qz="0" qw="1" />
+            <plane name="Plane001" castShadows="true" receiveShadows="true" distance="-0" width="120" height="120" xSegments="20" ySegments="20" numTexCoordSets="1" uTile="10" vTile="10" material="现场工作草皮-百慕大草_OgreMax" normals="true" movablePlane="true">
+                <normal x="-0" y="1" z="0" />
+                <upVector x="0" y="0" z="-1" />
+            </plane>
+        </node>
+        <node name="Box020">
+            <position x="125" y="4.16864e-014" z="9.53674e-007" />
+            <scale x="2.52373" y="3.22969" z="2.52373" />
+            <rotation qx="-1.50996e-007" qy="0" qz="0" qw="1" />
+            <entity name="Box020" castShadows="true" receiveShadows="true" meshFile="Box020.mesh">
+                <subentities>
+                    <subentity index="0" materialName="砖石/砖块大面_OgreMax" renderQueue="main" renderQueuePriority="0" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="PhotometricLight001">
+            <position x="0" y="55" z="0" />
+            <scale x="1" y="1" z="1" />
+            <rotation qx="0.707107" qy="0" qz="0" qw="0.707107" />
+            <light name="PhotometricLight001" visible="true" affectDiffuse="true" affectSpecular="true" ambientOnly="false" type="point" castShadows="true" power="1">
+                <rotation qx="-0.707107" qy="-0" qz="-0" qw="-0.707107" />
+                <colourDiffuse r="1.04287" g="0.983863" b="1.03358" />
+                <colourSpecular r="1" g="1" b="1" />
+                <lightAttenuation range="10000" constant="1" linear="0" quadric="0" />
+            </light>
+        </node>
+    </nodes>
+</scene>

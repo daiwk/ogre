@@ -1,0 +1,16 @@
+material health
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture KAMEN320x240-bump.jpg
+			}
+		}
+
+	}
+
+}
+

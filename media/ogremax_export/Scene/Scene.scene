@@ -1,0 +1,120 @@
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="1" minOgreVersion="1.8" ogreMaxVersion="2.4.4" author="OgreMax Scene Exporter (www.ogremax.com)" application="3DS Max">
+    <environment>
+        <colourAmbient r="0.333333" g="0.333333" b="0.333333" />
+        <colourBackground r="0" g="0" b="0" />
+        <clipping near="0" far="100000" />
+    </environment>
+    <nodes>
+        <node name="Cylinder01">
+            <position x="-2.56771" y="-29.6027" z="-12.9288" />
+            <scale x="5.12718" y="5.12718" z="3.81828" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Cylinder01" castShadows="true" receiveShadows="true" meshFile="Cylinder01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="carven4" renderQueuePriority="1234352" />
+                    <subentity index="1" materialName="contour3" renderQueuePriority="1234352" />
+                    <subentity index="2" materialName="carven3" renderQueuePriority="1234352" />
+                    <subentity index="3" materialName="carven2" renderQueuePriority="1234352" />
+                    <subentity index="4" materialName="contour4" renderQueuePriority="1234352" />
+                    <subentity index="5" materialName="contour1" renderQueuePriority="1234352" />
+                    <subentity index="6" materialName="contour2" renderQueuePriority="1234352" />
+                    <subentity index="7" materialName="inside1" renderQueuePriority="1234352" />
+                    <subentity index="8" materialName="carven1" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Plane01">
+            <position x="22.017" y="-29.6027" z="-32.9742" />
+            <scale x="5.12718" y="5.12718" z="3.81828" />
+            <rotation qx="0" qy="0" qz="0" qw="1" />
+            <entity name="Plane01" castShadows="true" receiveShadows="true" meshFile="Plane01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="inside1" renderQueuePriority="1234352" />
+                    <subentity index="1" materialName="Material#11" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="SKULL">
+            <position x="-207.502" y="-23.9932" z="-35.0803" />
+            <scale x="25.6359" y="25.6359" z="19.0914" />
+            <rotation qx="-0.259824" qy="0" qz="0" qw="0.965656" />
+            <entity name="SKULL" castShadows="true" receiveShadows="true" meshFile="SKULL.mesh">
+                <subentities>
+                    <subentity index="0" materialName="craneo4" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="SKULL01">
+            <position x="-9.71876" y="-24.9665" z="-66.1953" />
+            <scale x="25.6359" y="25.6359" z="19.0914" />
+            <rotation qx="-0.192385" qy="0.174633" qz="-0.649036" qw="0.715013" />
+            <entity name="SKULL01" castShadows="true" receiveShadows="true" meshFile="SKULL01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="craneo4" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="SKULL02">
+            <position x="-73.021" y="-24.9665" z="130.92" />
+            <scale x="25.6359" y="19.0914" z="25.6359" />
+            <rotation qx="0.396309" qy="-0.459389" qz="-0.548815" qw="0.575068" />
+            <entity name="SKULL02" castShadows="true" receiveShadows="true" meshFile="SKULL02.mesh">
+                <subentities>
+                    <subentity index="0" materialName="craneo4" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="toraciL4">
+            <position x="262.075" y="-27.8512" z="-0.935103" />
+            <scale x="1.28179" y="0.95457" z="1.2818" />
+            <rotation qx="-0.712317" qy="0" qz="0" qw="0.701858" />
+            <entity name="toraciL4" castShadows="true" receiveShadows="true" meshFile="toraciL4.mesh">
+                <subentities>
+                    <subentity index="0" materialName="rugoso" renderQueuePriority="1234352" />
+                    <subentity index="1" materialName="liso" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="toraciL05">
+            <position x="133.417" y="-9.57277" z="191.17" />
+            <scale x="0.95457" y="1.2818" z="1.28179" />
+            <rotation qx="-0.381053" qy="0.639379" qz="-0.589452" qw="-0.31391" />
+            <entity name="toraciL05" castShadows="true" receiveShadows="true" meshFile="toraciL05.mesh">
+                <subentities>
+                    <subentity index="0" materialName="rugoso" renderQueuePriority="1234352" />
+                    <subentity index="1" materialName="liso" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Hamate">
+            <position x="-93.4735" y="-29.0875" z="32.9074" />
+            <scale x="0.358902" y="0.267279" z="0.358903" />
+            <rotation qx="0.566489" qy="0.408017" qz="0.451184" qw="0.555919" />
+            <entity name="Hamate" castShadows="true" receiveShadows="true" meshFile="Hamate.mesh">
+                <subentities>
+                    <subentity index="0" materialName="UEXBONES" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="Hamate01">
+            <position x="-233.852" y="-29.0875" z="-157.706" />
+            <scale x="0.358902" y="0.267279" z="0.358903" />
+            <rotation qx="0.566489" qy="0.408017" qz="0.451184" qw="0.555919" />
+            <entity name="Hamate01" castShadows="true" receiveShadows="true" meshFile="Hamate01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="UEXBONES" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+        <node name="SSUNH01">
+            <position x="-151.54" y="20.9075" z="154.513" />
+            <scale x="0.75661" y="1.06943" z="0.499539" />
+            <rotation qx="2.9503e-010" qy="0.949592" qz="-4.0735e-008" qw="-0.313489" />
+            <entity name="SSUNH01" castShadows="true" receiveShadows="true" meshFile="SSUNH01.mesh">
+                <subentities>
+                    <subentity index="0" materialName="carven1" renderQueuePriority="1234352" />
+                </subentities>
+            </entity>
+        </node>
+    </nodes>
+</scene>

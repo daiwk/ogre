@@ -1,0 +1,101 @@
+material background
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fire.jpg
+				tex_address_mode wrap
+			}
+		}
+
+	}
+
+}
+
+
+material HP
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture red.png
+			}
+		}
+
+	}
+
+}
+
+
+material MP
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture blue.png
+			}
+		}
+
+	}
+
+}
+
+material playerlogo
+{
+	technique
+	{
+		pass
+		{
+		scene_blend alpha_blend 
+			texture_unit
+			{
+				texture playerlogo.png
+			}
+		}
+
+	}
+
+}
+
+material monsterlogo
+{
+	technique
+	{
+		pass
+		{
+		scene_blend alpha_blend 
+			texture_unit
+			{
+				texture monsterlogo.png
+			}
+		}
+
+	}
+
+}
+
+material vs
+{
+	technique
+	{
+		pass
+		{
+		scene_blend alpha_blend 
+			texture_unit
+			{
+				texture vs2.png
+			}
+		}
+
+	}
+
+}

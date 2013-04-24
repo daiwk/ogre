@@ -1,0 +1,107 @@
+material mat_hair
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture juto_hair_tex_df.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material mat_juto_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture juto_body_tex_df.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material mat_juto_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture juto_body_tex_df.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material mat_juto_eye_ball_n
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture juto_eyeball_tex_df.tga
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material_0
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture Texture2D_0.tga
+			}
+		}
+
+	}
+
+}

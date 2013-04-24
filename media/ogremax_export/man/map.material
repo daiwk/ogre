@@ -1,0 +1,36 @@
+material 现场工作草皮-百慕大草_OgreMax
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture grass_1024.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material 砖石/砖块大面_OgreMax
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture KAMEN320x240-bump.jpg
+			}
+
+		
+		}
+
+	}
+
+}

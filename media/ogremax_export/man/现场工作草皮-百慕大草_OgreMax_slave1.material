@@ -1,0 +1,12 @@
+
+material 现场工作草皮-百慕大草_OgreMax_slave1
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}

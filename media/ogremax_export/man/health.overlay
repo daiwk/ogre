@@ -1,0 +1,92 @@
+
+MyOverlays/MainOverlay
+{
+    zorder 200
+    container Panel(MyGuiElements/MainPanel)
+    {
+        // Center it horzontally, put it at the top
+        left 0
+        top 0
+        width 1
+        height 0.1
+		//material background
+	
+	container Panel(MyGuiElements/playerLogo)
+    {
+        // Center it horzontally, put it at the top
+        left 0
+        top 0.005
+        width 0.1
+        height 0.1
+        material playerlogo
+    }	
+	
+	container Panel(MyGuiElements/playerHP)
+    {
+        // Center it horzontally, put it at the top
+        left 0.2
+        top 0.005
+        width 0.2
+        height 0.03
+        material HP
+    }
+
+	
+	container Panel(MyGuiElements/playerMP)
+    {
+        // Center it horzontally, put it at the top
+        left 0.2
+        top 0.04
+        width 0.2
+        height 0.03
+        material MP
+    }
+	
+	container Panel(MyGuiElements/vs)
+    {
+        // Center it horzontally, put it at the top
+        left 0.45
+        top 0.005
+        width 0.1
+        height 0.1
+        material vs
+    }	
+	
+	container Panel(MyGuiElements/monsterHP)
+    {
+        // Center it horzontally, put it at the top
+        left 0.6
+        top 0.005
+        width 0.2
+        height 0.03
+        material HP
+    }
+
+	
+
+	container Panel(MyGuiElements/monsterMP)
+    {
+        // Center it horzontally, put it at the top
+        left 0.6
+        top 0.04
+        width 0.2
+        height 0.03
+        material MP
+    }
+	
+	container Panel(MyGuiElements/monsterLogo)
+    {
+        // Center it horzontally, put it at the top
+        left 0.9
+        top 0.005
+        width 0.1
+        height 0.1
+        material monsterlogo
+    }	
+	
+	
+	
+    }
+}	
+	
+
